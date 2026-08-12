@@ -8,7 +8,7 @@ Built with **React, Vite, Tailwind CSS, Framer Motion, and React Icons**.
 
 ## 🌐 Live Website
 
-- **Live Demo**: [https://ridwanulkarim.netlify.app](https://ridwanulkarim.netlify.app/)
+- **Live Vercel Site**: [https://ridwanulkarim.vercel.app/](https://ridwanulkarim.vercel.app/)
 
 ---
 
@@ -25,7 +25,7 @@ Built with **React, Vite, Tailwind CSS, Framer Motion, and React Icons**.
 ```text
 ridwan-portfolio/
 ├── src/
-│   ├── assets/           # High-resolution image assets
+│   ├── assets/           # High-resolution image assets & credentials
 │   ├── components/       # UI & section components
 │   │   ├── ui/           # Reusable UI primitives (GlassCard, Button, Tag, SectionHeading)
 │   │   ├── Navbar.jsx    # Floating glass header & mobile drawer
@@ -34,7 +34,8 @@ ridwan-portfolio/
 │   │   ├── WhatIBuild.jsx# 01-04 capability grid
 │   │   ├── Projects.jsx  # Selected featured projects
 │   │   ├── Skills.jsx    # Interactive tech stack
-│   │   ├── Education.jsx # IIUC degree highlight
+│   │   ├── Certificates.jsx # Credentials & lightbox zoom modal
+│   │   ├── Education.jsx # IIUC, Bakalia Govt College, Nasirabad Govt High School
 │   │   ├── Journey.jsx   # Milestone timeline
 │   │   ├── Contact.jsx   # Validated contact form
 │   │   └── Footer.jsx    # Footer branding & social links
@@ -43,6 +44,7 @@ ridwan-portfolio/
 │   ├── App.jsx
 │   └── index.css
 ├── index.html
+├── vercel.json
 ├── netlify.toml
 └── vite.config.js
 ```
