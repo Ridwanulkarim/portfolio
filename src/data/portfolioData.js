@@ -26,14 +26,17 @@ export const personalData = {
   institution: "International Islamic University Chittagong",
   degree: "B.Sc. in Computer Science & Engineering",
   location: "Chittagong, Bangladesh",
+  phone: "01862-126812",
+  email: "ridwanulk08@gmail.com",
   status: "Available for opportunities",
   bioHeadline: "A little about me.",
   bioParagraphs: [
-    "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ  My name is Mohammad Ridwanul Karim. I am a Computer Science & Engineering student driven by a deep fascination for building elegant web applications, scalable software architectures, and intelligent technologies.",
-    "My focus bridges intuitive, user-centric frontend interfaces with robust backend APIs and data-driven systems. I enjoy breaking down complex real-world problems into clean, maintainable code."
+    "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ  My name is Mohammad Ridwanul Karim. I am a passionate and dedicated student of Computer Science and Engineering (CSE) at International Islamic University Chittagong (IIUC), deeply interested in technology, problem-solving, and continuous learning.",
+    "Beyond academics, I have a strong passion for astronomy, often spending time observing stars, the moon, and galaxies through a telescope — an activity that enhances my curiosity, patience, and focus.",
+    "I aim to integrate my technical knowledge and creative thinking to contribute meaningfully in the fields of software development, content creation, and scientific exploration."
   ],
   heroTagline: "I build digital experiences that are simple, useful & scalable.",
-  heroSubtext: "Computer Science & Engineering student passionate about building modern web applications, solving real-world problems, and exploring intelligent technologies.",
+  heroSubtext: "Computer Science & Engineering student at IIUC passionate about building modern web applications, solving real-world problems, and exploring intelligent technologies.",
   profileImage: avatarImg,
   metaTags: ["CSE", "Developer", "Builder"]
 };
@@ -41,17 +44,50 @@ export const personalData = {
 export const socialLinks = {
   github: "https://github.com/Ridwanulkarim",
   linkedin: "https://linkedin.com",
-  email: "ridwan.karim.dev@gmail.com"
+  email: "ridwanulk08@gmail.com"
 };
 
 export const contactConfig = {
-  email: "ridwan.karim.dev@gmail.com",
+  email: "ridwanulk08@gmail.com",
+  phone: "01862-126812",
   github: "https://github.com/Ridwanulkarim",
   linkedin: "https://linkedin.com",
   formNotice: "This form is configured for direct submission. For immediate inquiries, email me directly."
 };
 
 export const resumeUrl = "/resume.pdf";
+
+export const hobbiesAndInterestsData = [
+  {
+    name: "Astronomical Observation",
+    desc: "Observing stars, the moon, and galaxies through a telescope"
+  },
+  {
+    name: "Competitive Programming",
+    desc: "Solving algorithmic challenges and practicing problem solving"
+  },
+  {
+    name: "Writing & Content Creation",
+    desc: "Writing educational, technical, and analytical content"
+  },
+  {
+    name: "Gardening",
+    desc: "Nurturing plants and spending time in nature"
+  }
+];
+
+export const languagesData = [
+  { name: "Bengali", level: "Native" },
+  { name: "English", level: "Fluent" }
+];
+
+export const personalQualitiesData = [
+  "Curious and Innovative Thinker",
+  "Strong Communication Skills",
+  "Teamwork & Leadership",
+  "Analytical & Critical Reasoning",
+  "Highly Motivated & Adaptable"
+];
 
 export const whatIBuildData = [
   {
@@ -149,7 +185,7 @@ export const projectsData = [
 
 export const skillsData = [
   {
-    category: "Frontend",
+    category: "Frontend & Core",
     skills: [
       { name: "HTML5", level: "Advanced", desc: "Semantic markup & structure" },
       { name: "CSS3 / Vanilla CSS", level: "Advanced", desc: "Custom layouts & animations" },
@@ -160,15 +196,16 @@ export const skillsData = [
     ]
   },
   {
-    category: "Backend",
+    category: "Backend & Systems",
     skills: [
       { name: "Node.js", level: "Intermediate", desc: "Event-driven runtime" },
       { name: "Express.js", level: "Intermediate", desc: "REST API server frameworks" },
-      { name: "REST APIs", level: "Intermediate", desc: "Structured HTTP endpoint design" }
+      { name: "REST APIs", level: "Intermediate", desc: "Structured HTTP endpoint design" },
+      { name: "Competitive Programming", level: "Intermediate", desc: "Algorithmic problem solving" }
     ]
   },
   {
-    category: "Database",
+    category: "Database & Cloud",
     skills: [
       { name: "PostgreSQL", level: "Intermediate", desc: "Relational database & SQL queries" },
       { name: "Firebase", level: "Intermediate", desc: "Auth, Firestore & Realtime DB" },
@@ -176,11 +213,12 @@ export const skillsData = [
     ]
   },
   {
-    category: "Tools & Workflow",
+    category: "Tools & Communication",
     skills: [
-      { name: "Git", level: "Intermediate", desc: "Version control & branching" },
-      { name: "GitHub", level: "Intermediate", desc: "Collaboration & code hosting" },
-      { name: "VS Code", level: "Advanced", desc: "Primary IDE & dev environment" }
+      { name: "Git & GitHub", level: "Intermediate", desc: "Version control & collaboration" },
+      { name: "VS Code", level: "Advanced", desc: "Primary IDE & dev environment" },
+      { name: "Content Writing", level: "Intermediate", desc: "Technical & educational writing" },
+      { name: "Debate & Reasoning", level: "Intermediate", desc: "Critical thinking & presentation" }
     ]
   },
   {
@@ -274,7 +312,7 @@ export const educationData = [
     degree: "B.Sc. in Computer Science & Engineering",
     institution: "International Islamic University Chittagong (IIUC)",
     status: "Currently Enrolled",
-    period: "2024 — Present",
+    period: "2024 — 2028",
     result: "Undergraduate Degree",
     focusAreas: [
       "Data Structures & Algorithms",
@@ -286,7 +324,7 @@ export const educationData = [
   },
   {
     id: "hsc",
-    degree: "Higher Secondary Certificate (HSC)",
+    degree: "Higher Secondary Certificate (H.S.C)",
     institution: "Bakalia Government College, Chattogram",
     status: "Completed",
     period: "2021 — 2023",
@@ -301,8 +339,8 @@ export const educationData = [
   },
   {
     id: "ssc",
-    degree: "Secondary School Certificate (SSC)",
-    institution: "Nasirabad Govt. High School, Chattogram",
+    degree: "Secondary School Certificate (S.S.C)",
+    institution: "Nasirabad Government High School (NGHS), Chattogram",
     status: "Completed",
     period: "2021",
     result: "GPA 5.00 (Science Group)",
@@ -321,7 +359,7 @@ export const journeyTimeline = [
     year: "Phase 01",
     title: "Computer Science Foundation",
     subtitle: "International Islamic University Chittagong",
-    description: "Began CSE degree, building core foundation in algorithms, mathematics, and computer systems."
+    description: "Began CSE degree (2024–2028), building core foundation in algorithms, mathematics, and computer systems."
   },
   {
     year: "Phase 02",
@@ -337,9 +375,9 @@ export const journeyTimeline = [
   },
   {
     year: "Phase 04",
-    title: "AI/ML Integration & Future Scalability",
+    title: "AI/ML Integration & Astronomy Exploration",
     subtitle: "Building & Learning continuously",
-    description: "Currently exploring artificial intelligence, machine learning applications, and scalable backend architecture."
+    description: "Currently exploring artificial intelligence, machine learning applications, competitive programming, and astronomical observation."
   }
 ];
 

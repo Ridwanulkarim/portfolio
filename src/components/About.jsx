@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SectionHeading from './ui/SectionHeading';
 import GlassCard from './ui/GlassCard';
-import { personalData } from '../data/portfolioData';
+import { personalData, hobbiesAndInterestsData, languagesData } from '../data/portfolioData';
 
 export default function About() {
   return (
@@ -63,27 +63,27 @@ export default function About() {
             {/* Micro Details Grid Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
               <GlassCard hoverEffect={true} className="p-5">
-                <span className="text-xs font-mono text-violet-400 block mb-1">LOCATION</span>
-                <h4 className="text-lg font-semibold text-white">Based in Bangladesh</h4>
-                <p className="text-xs text-slate-400 mt-1">Chittagong region, open to remote global opportunities.</p>
+                <span className="text-xs font-mono text-violet-400 block mb-1">PASSION &amp; HOBBY</span>
+                <h4 className="text-lg font-semibold text-white">Astronomical Observation 🔭</h4>
+                <p className="text-xs text-slate-400 mt-1">Observing stars, moon, &amp; galaxies with a telescope—enhancing curiosity and patience.</p>
               </GlassCard>
 
               <GlassCard hoverEffect={true} className="p-5">
                 <span className="text-xs font-mono text-violet-400 block mb-1">EDUCATION</span>
                 <h4 className="text-lg font-semibold text-white">B.Sc. in CSE @ IIUC</h4>
-                <p className="text-xs text-slate-400 mt-1">International Islamic University Chittagong.</p>
+                <p className="text-xs text-slate-400 mt-1">International Islamic University Chittagong (2024–2028).</p>
               </GlassCard>
 
               <GlassCard hoverEffect={true} className="p-5">
-                <span className="text-xs font-mono text-violet-400 block mb-1">CURRENT STATUS</span>
-                <h4 className="text-lg font-semibold text-white">Building &amp; Learning</h4>
-                <p className="text-xs text-slate-400 mt-1">Crafting full-stack solutions and exploring AI/ML concepts.</p>
+                <span className="text-xs font-mono text-violet-400 block mb-1">LANGUAGES</span>
+                <h4 className="text-lg font-semibold text-white">English &amp; Bengali</h4>
+                <p className="text-xs text-slate-400 mt-1">English (Fluent) • Bengali (Native speaker).</p>
               </GlassCard>
 
               <GlassCard hoverEffect={true} className="p-5">
-                <span className="text-xs font-mono text-violet-400 block mb-1">PHILOSOPHY</span>
-                <h4 className="text-lg font-semibold text-white">Less, But Better</h4>
-                <p className="text-xs text-slate-400 mt-1">Obsessed with clean code, modern UX, and detail-oriented design.</p>
+                <span className="text-xs font-mono text-violet-400 block mb-1">INTERESTS</span>
+                <h4 className="text-lg font-semibold text-white">Coding, Writing &amp; Gardening</h4>
+                <p className="text-xs text-slate-400 mt-1">Competitive programming, technical articles, and gardening.</p>
               </GlassCard>
             </div>
           </motion.div>
