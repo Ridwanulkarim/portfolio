@@ -8,7 +8,7 @@ Built with **React, Vite, Tailwind CSS, Framer Motion, and React Icons**.
 
 ## 🌐 Live Website
 
-- **Live Demo**: [Deploying on Netlify](https://app.netlify.com) *(Update with your exact Netlify domain, e.g. `https://ridwankarim.netlify.app`)*
+- **Live Demo**: [https://ridwanulkarim.netlify.app](https://ridwanulkarim.netlify.app/)
 
 ---
 
