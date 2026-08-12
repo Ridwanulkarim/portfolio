@@ -7,8 +7,9 @@ import avatarImg from '../assets/images/ridwan_avatar.jpg';
 import certRoverXImg from '../assets/images/certificates/cert_roverx.png';
 import cert5G6GImg from '../assets/images/certificates/cert_5g6g.png';
 import certAgentXImg from '../assets/images/certificates/cert_agentx_ai.png';
-import certSSCImg from '../assets/images/certificates/cert_ssc.png';
-import certHSCImg from '../assets/images/certificates/cert_hsc.jpg';
+import certJSCBoardImg from '../assets/images/certificates/cert_jsc_board.png';
+import certSSCBoardImg from '../assets/images/certificates/cert_ssc_board.png';
+import certHSCBoardImg from '../assets/images/certificates/cert_hsc_board.png';
 
 export const personalData = {
   fullName: "Mohammad Ridwanul Karim",
@@ -219,22 +220,31 @@ export const certificatesData = [
     image: cert5G6GImg
   },
   {
-    id: "hsc-testimonial",
-    title: "Higher Secondary Certificate (HSC)",
-    issuer: "Bakalia Government College, Chattogram",
-    date: "2021 - 2023",
-    type: "Academic Testimonial",
-    description: "Official testimonial for passing HSC Examination in Science Group under Board of Intermediate and Secondary Education Chittagong with GPA 4.67.",
-    image: certHSCImg
+    id: "hsc-board-cert",
+    title: "Higher Secondary Certificate (HSC - 2023)",
+    issuer: "BISE Chattogram • Bakalia Govt. College",
+    date: "November 26, 2023",
+    type: "Board Certificate",
+    description: "Official Higher Secondary School Certificate Examination 2023 in Science Group under Board of Intermediate and Secondary Education Chattogram with GPA 4.67.",
+    image: certHSCBoardImg
   },
   {
-    id: "ssc-testimonial",
-    title: "Secondary School Certificate (SSC)",
-    issuer: "Nasirabad Govt. High School, Chattogram",
-    date: "2021",
-    type: "Academic Testimonial",
-    description: "Official testimonial for passing SSC Examination in Science Group under Board of Intermediate and Secondary Education Chattogram with Perfect GPA 5.00.",
-    image: certSSCImg
+    id: "ssc-board-cert",
+    title: "Secondary School Certificate (SSC - 2021)",
+    issuer: "BISE Chattogram • Nasirabad Govt. High School",
+    date: "December 30, 2021",
+    type: "Board Certificate",
+    description: "Official Secondary School Certificate Examination 2021 in Science Group under Board of Intermediate and Secondary Education Chattogram with GPA 5.00.",
+    image: certSSCBoardImg
+  },
+  {
+    id: "jsc-board-cert",
+    title: "Junior School Certificate (JSC - 2018)",
+    issuer: "BISE Chittagong • Nasirabad Govt. High School",
+    date: "December 24, 2018",
+    type: "Board Certificate",
+    description: "Official Junior School Certificate Examination 2018 under Board of Intermediate and Secondary Education Chittagong with Perfect GPA 5.00.",
+    image: certJSCBoardImg
   }
 ];
 
