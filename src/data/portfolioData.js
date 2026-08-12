@@ -222,7 +222,7 @@ export const certificatesData = [
     id: "hsc-testimonial",
     title: "Higher Secondary Certificate (HSC)",
     issuer: "Bakalia Government College, Chattogram",
-    date: "2022 - 2024",
+    date: "2021 - 2023",
     type: "Academic Testimonial",
     description: "Official testimonial for passing HSC Examination in Science Group under Board of Intermediate and Secondary Education Chittagong with GPA 4.67.",
     image: certHSCImg
@@ -259,7 +259,7 @@ export const educationData = [
     degree: "Higher Secondary Certificate (HSC)",
     institution: "Bakalia Government College, Chattogram",
     status: "Completed",
-    period: "2022 — 2024",
+    period: "2021 — 2023",
     result: "GPA 4.67 (Science Group)",
     focusAreas: [
       "Physics",
