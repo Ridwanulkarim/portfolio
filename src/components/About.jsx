@@ -42,12 +42,6 @@ export default function About() {
                   {/* Subtle Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#030304] via-transparent to-transparent opacity-50" />
                 </div>
-
-                {/* Profile Micro Metadata Badge */}
-                <div className="mt-4 px-2 pb-1 flex items-center justify-between font-mono text-xs text-slate-400">
-                  <span className="text-slate-300 font-medium">CSE • Developer • Builder</span>
-                  <span className="text-violet-400">IIUC '26</span>
-                </div>
               </div>
             </div>
           </motion.div>
