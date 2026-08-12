@@ -29,7 +29,7 @@ export const personalData = {
   status: "Available for opportunities",
   bioHeadline: "A little about me.",
   bioParagraphs: [
-    "I am a Computer Science & Engineering student driven by a deep fascination for building elegant web applications, scalable software architectures, and intelligent technologies.",
+    "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ  My name is Mohammad Ridwanul Karim. I am a Computer Science & Engineering student driven by a deep fascination for building elegant web applications, scalable software architectures, and intelligent technologies.",
     "My focus bridges intuitive, user-centric frontend interfaces with robust backend APIs and data-driven systems. I enjoy breaking down complex real-world problems into clean, maintainable code."
   ],
   heroTagline: "I build digital experiences that are simple, useful & scalable.",
