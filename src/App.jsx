@@ -7,6 +7,7 @@ import About from './components/About';
 import WhatIBuild from './components/WhatIBuild';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Certificates from './components/Certificates';
 import Education from './components/Education';
 import Journey from './components/Journey';
 import GithubSection from './components/GithubSection';
@@ -32,6 +33,7 @@ export default function App() {
         <WhatIBuild />
         <Projects />
         <Skills />
+        <Certificates />
         <Education />
         <Journey />
         <GithubSection />

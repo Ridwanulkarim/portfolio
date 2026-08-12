@@ -9,6 +9,7 @@ const navItems = [
   { name: 'About', href: '#about' },
   { name: 'Projects', href: '#projects' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Certificates', href: '#certificates' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -97,7 +98,7 @@ export default function Navbar() {
                   key={item.name}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item.href)}
-                  className={`relative px-4 py-2 text-sm font-medium transition-colors duration-200 ${
+                  className={`relative px-3.5 py-2 text-xs lg:text-sm font-medium transition-colors duration-200 ${
                     isActive ? 'text-white' : 'text-slate-400 hover:text-white'
                   }`}
                 >
@@ -105,7 +106,7 @@ export default function Navbar() {
                   {isActive && (
                     <motion.div
                       layoutId="activeIndicator"
-                      className="absolute bottom-1 left-4 right-4 h-0.5 bg-gradient-to-r from-violet-500 to-indigo-500 rounded-full"
+                      className="absolute bottom-1 left-3.5 right-3.5 h-0.5 bg-gradient-to-r from-violet-500 to-indigo-500 rounded-full"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}

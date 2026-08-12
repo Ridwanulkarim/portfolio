@@ -4,6 +4,12 @@ import iiucCourseApiImg from '../assets/images/iiuc_course_api.jpg';
 import daylightPlannerImg from '../assets/images/daylight_planner.jpg';
 import avatarImg from '../assets/images/ridwan_avatar.jpg';
 
+import certRoverXImg from '../assets/images/certificates/cert_roverx.png';
+import cert5G6GImg from '../assets/images/certificates/cert_5g6g.png';
+import certAgentXImg from '../assets/images/certificates/cert_agentx_ai.png';
+import certSSCImg from '../assets/images/certificates/cert_ssc.png';
+import certHSCImg from '../assets/images/certificates/cert_hsc.jpg';
+
 export const personalData = {
   fullName: "Mohammad Ridwanul Karim",
   preferredName: "Ridwan",
@@ -181,6 +187,54 @@ export const skillsData = [
       { name: "Backend Architecture", level: "Enthusiast", desc: "Scalable system design patterns" },
       { name: "Scalable Systems", level: "Enthusiast", desc: "High concurrency & optimization" }
     ]
+  }
+];
+
+export const certificatesData = [
+  {
+    id: "agentx-ai-prompting",
+    title: "AgentX - AI Prompting Competition",
+    issuer: "NetCom Learning Bangladesh & IIUC",
+    date: "2025",
+    type: "Award & Appreciation",
+    description: "Certificate of Appreciation for outstanding performance and prize at the AgentX AI Prompting Competition organized at International Islamic University Chittagong.",
+    image: certAgentXImg
+  },
+  {
+    id: "roverx-mars-rover",
+    title: "RoverX Mars Rover Challenge Seminar",
+    issuer: "IEEE IIUC Student Branch",
+    date: "June 16, 2025",
+    type: "IEEE Participation",
+    description: "Participation certificate in seminar with Mars Rover Challenge experts on 'RoverX' with Team Project Altair from IUT at Central Auditorium, IIUC.",
+    image: certRoverXImg
+  },
+  {
+    id: "5g-6g-networking",
+    title: "5G & 6G Networking Systems",
+    issuer: "IEEE ComSoc IIUC SBC",
+    date: "December 05, 2024",
+    type: "IEEE Webinar",
+    description: "Webinar certification on '5G & 6G Networking Systems: Pioneering the Future of Connectivity' led by Ericsson network leads and IIUC faculty.",
+    image: cert5G6GImg
+  },
+  {
+    id: "hsc-testimonial",
+    title: "Higher Secondary Certificate (HSC)",
+    issuer: "Bakalia Government College, Chattogram",
+    date: "2022 - 2024",
+    type: "Academic Testimonial",
+    description: "Official testimonial for passing HSC Examination in Science Group under Board of Intermediate and Secondary Education Chittagong with GPA 4.67.",
+    image: certHSCImg
+  },
+  {
+    id: "ssc-testimonial",
+    title: "Secondary School Certificate (SSC)",
+    issuer: "Nasirabad Govt. High School, Chattogram",
+    date: "2021",
+    type: "Academic Testimonial",
+    description: "Official testimonial for passing SSC Examination in Science Group under Board of Intermediate and Secondary Education Chattogram with Perfect GPA 5.00.",
+    image: certSSCImg
   }
 ];
 
