@@ -10,6 +10,8 @@ import certAgentXImg from '../assets/images/certificates/cert_agentx_ai.png';
 import certJSCBoardImg from '../assets/images/certificates/cert_jsc_board.png';
 import certSSCBoardImg from '../assets/images/certificates/cert_ssc_board.png';
 import certHSCBoardImg from '../assets/images/certificates/cert_hsc_board.png';
+import certSSCTestimonialImg from '../assets/images/certificates/cert_ssc.png';
+import certHSCTestimonialImg from '../assets/images/certificates/cert_hsc.jpg';
 
 export const personalData = {
   fullName: "Mohammad Ridwanul Karim",
@@ -221,16 +223,25 @@ export const certificatesData = [
   },
   {
     id: "hsc-board-cert",
-    title: "Higher Secondary Certificate (HSC - 2023)",
+    title: "HSC Board Certificate (2023)",
     issuer: "BISE Chattogram • Bakalia Govt. College",
     date: "November 26, 2023",
     type: "Board Certificate",
-    description: "Official Higher Secondary School Certificate Examination 2023 in Science Group under Board of Intermediate and Secondary Education Chattogram with GPA 4.67.",
+    description: "Official Higher Secondary Certificate Examination 2023 in Science Group under Board of Intermediate and Secondary Education Chattogram with GPA 4.67.",
     image: certHSCBoardImg
   },
   {
+    id: "hsc-testimonial",
+    title: "HSC Academic Testimonial",
+    issuer: "Bakalia Government College, Chattogram",
+    date: "2021 — 2023",
+    type: "College Testimonial",
+    description: "Official college academic testimonial certifying student completion of HSC course in Science Group with GPA 4.67.",
+    image: certHSCTestimonialImg
+  },
+  {
     id: "ssc-board-cert",
-    title: "Secondary School Certificate (SSC - 2021)",
+    title: "SSC Board Certificate (2021)",
     issuer: "BISE Chattogram • Nasirabad Govt. High School",
     date: "December 30, 2021",
     type: "Board Certificate",
@@ -238,8 +249,17 @@ export const certificatesData = [
     image: certSSCBoardImg
   },
   {
+    id: "ssc-testimonial",
+    title: "SSC Academic Testimonial",
+    issuer: "Nasirabad Govt. High School, Chattogram",
+    date: "2021",
+    type: "School Testimonial",
+    description: "Official school academic testimonial certifying student completion of SSC course in Science Group with GPA 5.00.",
+    image: certSSCTestimonialImg
+  },
+  {
     id: "jsc-board-cert",
-    title: "Junior School Certificate (JSC - 2018)",
+    title: "JSC Board Certificate (2018)",
     issuer: "BISE Chittagong • Nasirabad Govt. High School",
     date: "December 24, 2018",
     type: "Board Certificate",
