@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { SectionHeading } from './ui/SectionHeading';
+import SectionHeading from './ui/SectionHeading';
 import GlassCard from './ui/GlassCard';
 import { skillsData } from '../data/portfolioData';
 import { 
-  SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiVite, 
-  SiNodedotjs, SiExpress, SiPostgresql, SiFirebase, SiGit, SiGithub, SiVisualstudiocode, SiPython
+  SiJavascript, SiReact, SiTailwindcss, SiVite, 
+  SiNodedotjs, SiExpress, SiPostgresql, SiFirebase, SiGit, SiGithub
 } from 'react-icons/si';
-import { TbApi, TbBrain, TbServer, TbCpu } from 'react-icons/tb';
+import { 
+  TbApi, TbBrain, TbServer, TbCpu, TbBrandHtml5, TbBrandCss3, TbBrandVscode 
+} from 'react-icons/tb';
 
 const iconMap = {
-  "HTML5": SiHtml5,
-  "CSS3 / Vanilla CSS": SiCss3,
+  "HTML5": TbBrandHtml5,
+  "CSS3 / Vanilla CSS": TbBrandCss3,
   "JavaScript (ES6+)": SiJavascript,
   "React": SiReact,
   "Tailwind CSS": SiTailwindcss,
@@ -24,7 +26,7 @@ const iconMap = {
   "Firestore": SiFirebase,
   "Git": SiGit,
   "GitHub": SiGithub,
-  "VS Code": SiVisualstudiocode,
+  "VS Code": TbBrandVscode,
   "AI & Machine Learning": TbBrain,
   "Backend Architecture": TbServer,
   "Scalable Systems": TbCpu
