@@ -6,6 +6,12 @@ Production-ready personal developer portfolio website for **Mohammad Ridwanul Ka
 
 Built with **React, Vite, Tailwind CSS, Framer Motion, and React Icons**.
 
+## 🌐 Live Website
+
+- **Live Demo**: [Deploying on Netlify](https://app.netlify.com) *(Update with your exact Netlify domain, e.g. `https://ridwankarim.netlify.app`)*
+
+---
+
 ## 🚀 Tech Stack
 
 - **Framework**: React + Vite
@@ -37,6 +43,7 @@ ridwan-portfolio/
 │   ├── App.jsx
 │   └── index.css
 ├── index.html
+├── netlify.toml
 └── vite.config.js
 ```
 
