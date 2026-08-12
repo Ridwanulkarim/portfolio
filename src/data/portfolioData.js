@@ -1,5 +1,7 @@
 import womenSafetyImg from '../assets/images/women_safety_app.jpg';
 import threatIntelImg from '../assets/images/threat_intel_system.jpg';
+import iiucCourseApiImg from '../assets/images/iiuc_course_api.jpg';
+import daylightPlannerImg from '../assets/images/daylight_planner.jpg';
 import avatarImg from '../assets/images/ridwan_avatar.jpg';
 
 export const personalData = {
@@ -99,6 +101,40 @@ export const projectsData = [
     ],
     liveDemo: "https://github.com/Ridwanulkarim",
     github: "https://github.com/Ridwanulkarim"
+  },
+  {
+    id: "iiuc-course-api",
+    number: "03",
+    title: "IIUC Course Management API",
+    category: "Backend / REST API",
+    description: "A high-performance backend REST API system engineered for International Islamic University Chittagong course administration, student course registration, prerequisite validation, departmental routine scheduling, and grading telemetry.",
+    image: iiucCourseApiImg,
+    technologies: ["Node.js", "Express.js", "PostgreSQL", "JWT Auth", "REST API"],
+    features: [
+      "Course Registration & Prerequisite Logic Validation",
+      "Departmental Slot Scheduling & Room Allocation",
+      "Role-Based JWT Access Control (Student / Faculty / Admin)",
+      "Structured SQL Database Queries & Endpoint Telemetry"
+    ],
+    liveDemo: "https://github.com/Ridwanulkarim",
+    github: "https://github.com/Ridwanulkarim"
+  },
+  {
+    id: "day-light-planner",
+    number: "04",
+    title: "Day Light Planner",
+    category: "Frontend / Productivity App",
+    description: "A modern daylight-focused daily task planner and productivity dashboard featuring visual time-blocking, goal tracking, focus analytics, priority tags, and responsive task workflow management.",
+    image: daylightPlannerImg,
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Local Storage", "JavaScript"],
+    features: [
+      "Interactive Daytime Schedule & Time-Blocking Grid",
+      "Task Priority & Category Color-Coding",
+      "Focus Duration Analytics & Daily Completion Metrics",
+      "Responsive Dark Glass Productivity Dashboard"
+    ],
+    liveDemo: "https://github.com/Ridwanulkarim",
+    github: "https://github.com/Ridwanulkarim"
   }
 ];
 
@@ -178,7 +214,7 @@ export const journeyTimeline = [
     year: "Phase 03",
     title: "Full-Stack Development & Real Projects",
     subtitle: "Node.js, Express, Firebase & Databases",
-    description: "Expanded into full-stack application design—building real-world solutions like the Women Safety Web App and Threat Intelligence Management System."
+    description: "Expanded into full-stack application design—building real-world solutions like the Women Safety Web App, IIUC Course API, and Threat Intelligence System."
   },
   {
     year: "Phase 04",
