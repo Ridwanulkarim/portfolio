@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { SectionHeading } from './ui/SectionHeading';
+import SectionHeading from './ui/SectionHeading';
 import GlassCard from './ui/GlassCard';
 import { personalData } from '../data/portfolioData';
 
@@ -33,14 +33,14 @@ export default function About() {
               <div className="absolute -inset-1 bg-gradient-to-r from-violet-600/30 via-indigo-600/20 to-pink-500/20 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition duration-700" />
               
               <div className="relative rounded-2xl overflow-hidden glass-panel p-3 border border-white/10 bg-[#08080c]">
-                <div className="relative aspect-square rounded-xl overflow-hidden bg-slate-900">
+                <div className="relative aspect-[3/4] sm:aspect-square rounded-xl overflow-hidden bg-slate-900">
                   <img 
                     src={personalData.profileImage} 
                     alt={personalData.fullName}
-                    className="w-full h-full object-cover filter grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+                    className="w-full h-full object-cover object-top filter grayscale contrast-110 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
                   />
                   {/* Subtle Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#030304] via-transparent to-transparent opacity-60" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#030304] via-transparent to-transparent opacity-50" />
                 </div>
 
                 {/* Profile Micro Metadata Badge */}
