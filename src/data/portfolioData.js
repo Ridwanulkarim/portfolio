@@ -215,7 +215,7 @@ export const certificatesData = [
     issuer: "IEEE ComSoc IIUC SBC",
     date: "December 05, 2024",
     type: "IEEE Webinar",
-    description: "Webinar certification on '5G & 6G Networking Systems: Pioneering the Future of Connectivity' led by Ericsson network leads and IIUC faculty.",
+    description: "Webinar certification on '5G & 6G Networking Systems: Pioneering the Future of Connectivity' led by Ericsson network leads and IIUC Faculty.",
     image: cert5G6GImg
   },
   {
@@ -238,18 +238,53 @@ export const certificatesData = [
   }
 ];
 
-export const educationData = {
-  degree: "B.Sc. in Computer Science & Engineering",
-  institution: "International Islamic University Chittagong",
-  status: "Currently Enrolled",
-  focusAreas: [
-    "Data Structures & Algorithms",
-    "Database Management Systems",
-    "Software Engineering Principles",
-    "Object-Oriented Programming",
-    "Web Technologies & Computer Networks"
-  ]
-};
+export const educationData = [
+  {
+    id: "bsc-cse",
+    degree: "B.Sc. in Computer Science & Engineering",
+    institution: "International Islamic University Chittagong (IIUC)",
+    status: "Currently Enrolled",
+    period: "2024 — Present",
+    result: "Undergraduate Degree",
+    focusAreas: [
+      "Data Structures & Algorithms",
+      "Database Management Systems",
+      "Software Engineering Principles",
+      "Object-Oriented Programming",
+      "Web Technologies & Computer Networks"
+    ]
+  },
+  {
+    id: "hsc",
+    degree: "Higher Secondary Certificate (HSC)",
+    institution: "Bakalia Government College, Chattogram",
+    status: "Completed",
+    period: "2022 — 2024",
+    result: "GPA 4.67 (Science Group)",
+    focusAreas: [
+      "Physics",
+      "Chemistry",
+      "Higher Mathematics",
+      "Information & Communication Technology (ICT)",
+      "Biology"
+    ]
+  },
+  {
+    id: "ssc",
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Nasirabad Govt. High School, Chattogram",
+    status: "Completed",
+    period: "2021",
+    result: "GPA 5.00 (Science Group)",
+    focusAreas: [
+      "Physics",
+      "Chemistry",
+      "Higher Mathematics",
+      "General Science & Mathematics",
+      "ICT"
+    ]
+  }
+];
 
 export const journeyTimeline = [
   {
