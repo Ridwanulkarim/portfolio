@@ -43,7 +43,7 @@ export const personalData = {
 
 export const socialLinks = {
   github: "https://github.com/Ridwanulkarim",
-  linkedin: "https://linkedin.com",
+  linkedin: "https://www.linkedin.com/in/ridwanul-karim-508b5b318",
   email: "ridwanulk08@gmail.com"
 };
 
@@ -51,7 +51,7 @@ export const contactConfig = {
   email: "ridwanulk08@gmail.com",
   phone: "01862-126812",
   github: "https://github.com/Ridwanulkarim",
-  linkedin: "https://linkedin.com",
+  linkedin: "https://www.linkedin.com/in/ridwanul-karim-508b5b318",
   formNotice: "This form is configured for direct submission. For immediate inquiries, email me directly."
 };
 
@@ -324,7 +324,7 @@ export const educationData = [
   },
   {
     id: "hsc",
-    degree: "Higher Secondary Certificate (H.S.C)",
+    degree: "Higher Secondary Certificate (HSC)",
     institution: "Bakalia Government College, Chattogram",
     status: "Completed",
     period: "2021 — 2023",
@@ -339,8 +339,8 @@ export const educationData = [
   },
   {
     id: "ssc",
-    degree: "Secondary School Certificate (S.S.C)",
-    institution: "Nasirabad Government High School (NGHS), Chattogram",
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Nasirabad Govt. High School, Chattogram",
     status: "Completed",
     period: "2021",
     result: "GPA 5.00 (Science Group)",
